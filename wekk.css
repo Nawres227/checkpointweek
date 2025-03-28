@@ -1,0 +1,99 @@
+@import url("https://fonts.googleapis.com/css?family=Roboto:100,200,300,regular,500,600,700,800,900,100italic,200italic,300italic,italic,500italic,600italic,700italic,800italic,900italic");
+body {
+  font-family: "Roboto", sans-serif;
+  margin: 0;
+  padding: 0;
+  background-color: #dfa2a27f;
+  text-align: center;
+}
+h2 {
+  color: #d84777;
+}
+
+.navbar ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+  display: flex;
+  justify-content: center;
+  background-color: #333;
+  padding: 10px;
+}
+
+.nav-item {
+  margin: 0 15px;
+}
+
+.nav-item a {
+  text-decoration: none;
+  color: white;
+  font-weight: bold;
+  padding: 10px 15px;
+  transition: 0.3s;
+}
+
+.nav-item a:hover {
+  background-color: #f39c12;
+  border-radius: 5px;
+}
+
+/* Hero Section */
+.hero {
+  background: #222;
+  color: white;
+  padding: 50px 20px;
+}
+
+.hero h1 {
+  font-size: 2.5em;
+}
+section.contact {
+  max-width: 800px;
+  margin: 40px auto;
+  padding: 30px;
+  background-color: #e75bc1a7;
+  border-radius: 10px;
+  box-shadow: 0 0 20px rgba(253, 45, 225, 0.1);
+}
+
+section.contact h2 {
+  text-align: center;
+  margin-bottom: 30px;
+  color: #333;
+  font-size: 28px;
+}
+
+section.contact form label {
+  font-weight: bold;
+  color: #555;
+  margin-bottom: 5px;
+  display: block;
+}
+section.contact form input[type="text"],
+section.contact form input[type="email"],
+section.contact form textarea {
+  width: 100%;
+  padding: 12px;
+  border: 1px solid #ae128f;
+  border-radius: 5px;
+  font-size: 16px;
+}
+section.contact form input[type="text"]:focus,
+section.contact form input[type="email"]:focus,
+section.contact form textarea:focus {
+  border-color: #084777;
+  outline: none;
+  box-shadow: 0 0 5px rgba(8, 71, 119, 0.3);
+}
+
+.contact button {
+  background: #d84777;
+  color: white;
+  border: none;
+  padding: 10px;
+  width: 30%;
+  border-radius: 70px;
+  cursor: pointer;
+  font-size: 16px;
+  margin-bottom: 70px;
+}
